@@ -1,0 +1,35 @@
+html{ font-family: 'Amatic SC', cursive;
+}
+
+a{
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+  box-shadow: 1px 1px 1px 1px black;
+  text-decoration: none;
+}
+
+p{
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  margin: auto;
+  line-height: 2.2;
+  font-size: 2rem;
+  background: linear-gradient(to top left, rgba(0,0,0,0.2),
+  rgba(0,0,0,0.2)30%, rgba(0,0,0,0));
+  border: 1px solid lightgreen;
+  background-color: lightgreen;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px black;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+p:hover {
+  text-decoration: none;
+  background-color:lightblue;
+  border:1px solid lightblue;
+}
